@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:background="@drawable/a42" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+  >
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="123dp"
+        android:gravity="center"
+        android:text="\n安相伴\n爱的体现"
+        android:textColor="#8abffe"
+        android:textSize="22sp" />
+
+     <Button
+         android:id="@+id/ImageButton01"
+         android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="50dp"
+         android:adjustViewBounds="true"
+         android:padding="0px"
+         android:onClick="startbutton"
+         android:background="@drawable/start" />
+
+</RelativeLayout>

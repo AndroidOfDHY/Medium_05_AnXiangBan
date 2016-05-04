@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:background="@drawable/a32" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+  >
+    
+  <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="123dp"
+        android:gravity="center"
+        android:text="\n安相伴\n爱的体现"
+        android:textColor="#8abffe"
+        android:textSize="22sp" />
+</RelativeLayout>
